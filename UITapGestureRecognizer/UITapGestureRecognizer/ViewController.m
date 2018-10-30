@@ -87,6 +87,7 @@
 {
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
     longPress.delegate = self;
+    longPress.minimumPressDuration = 2;  //可以设置长按的时间，如果不设置的话就按照默认的时间
     [self.imageView addGestureRecognizer:longPress];
 }
 

@@ -15,6 +15,7 @@
  4、UISwipeGestureRecognizer（轻扫）；
  5、UIRotationGestureRecognizer（旋转）；
  6、UILongPressGestureRecognizer（长按）；
+ Sourcetree测试
  */
 #import "ViewController.h"
 
